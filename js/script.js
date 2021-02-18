@@ -53,6 +53,8 @@
 // typeof 'Hello';
 // typeof 5;
 // typeof true;
+// typeof {a: 1};
+// typeof undefined;
 
 // STEP 11
 // alert("Hello "+"Evgeny Anisimov, "+"welcome to the Javascript class"+"!")
@@ -72,3 +74,41 @@
 // alert(`Hello ${name}.\nWelcome to the ${course} class!`);
 
 //STEP 15
+// let name=prompt("What is your name?");
+// let course = "JavaScript";
+// alert(`Hello ${name}.\nWelcome to the ${course} class!`);
+
+//STEP 16
+// let name=prompt("What is your name?");
+// let course = prompt("What class are you taking?");
+// alert(`Hello ${name}.\nWelcome to the ${course} class!`);
+
+//STEP 17
+// let x = 10;
+// let y = 20;
+// alert(x+y);
+
+//STEP 18
+// let x =20;
+// x+=20;
+// alert(x);
+
+//STEP 19
+// let x = 20;
+// x*=5;
+// alert(x);
+
+//STEP 20
+// let x = 20 % 3;
+// x/=1;
+// alert(x);
+
+//STEP 21
+// let x = 10;
+// let y = 5;
+// alert (x == 10 && y == 5);
+
+//STEP 22
+// let x = 10;
+// let y = 15;
+// alert(x != 10 || y <= 10);
